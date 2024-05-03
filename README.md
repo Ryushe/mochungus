@@ -22,3 +22,9 @@ browse around :smiling_imp:
 
 For this Project I used:  
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,firebase,github)](https://skillicons.dev)
+
+
+<!-- 
+Notes about proj:
+- unless pr doesn't deploy
+-->
