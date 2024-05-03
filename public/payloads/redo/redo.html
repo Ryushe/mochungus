@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/main.css">
+        <a>You cant close me :)</a>
+    </head>
+    <body>
+    <script type="text/javascript">
+        // alert when reloaded/closed
+        window.addEventListener('beforeunload', function (event) {
+            event.preventDefault();
+            event.returnValue = '';
+});
+
+    </script>
+    </body>
+</html>
+
+
+<!-- 
+- create server websocket on site locally
+- connect to the server making a new socket to transfer data
+- send closed data from the socket to the server  
+- server invokes a new tab 
+
+- dont think I need socket.js
+- create socket here
+- can test socket connectivity from here 
+
+incase socket fails:
+- post tab open create socket -> occasional check that tab is still open -> tab not open server invokes a new request to the tab reopening
+
+-->
+
